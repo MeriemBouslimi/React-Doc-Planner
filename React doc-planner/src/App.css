@@ -1,0 +1,246 @@
+/*---------------Lead-----------------*/
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 300px 60px 300px;
+  padding: 0 20px;
+}
+.img-lead {
+  width: 40px;
+}
+.title-marketing {
+  text-align: center;
+  color: #00b39b;
+}
+.lead-txt {
+  display: flex;
+}
+.lead-txt p {
+  width: 50%;
+  font-size: 16px;
+}
+.lead-paragraph {
+  padding: 10px;
+  color: gray;
+}
+/*---------------Lead-----------------*/
+
+/*---------------Service-------------*/
+.service-elements {
+  display: flex;
+  justify-content: center;
+
+}
+.doctors {
+  background-color: #00b59c;
+  border-radius: 10px;
+  width: 370px;
+  height: 370px;
+  padding: 0 40px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.patients {
+  background-color: #3d83df;
+  border-radius: 10px;
+  width: 370px;
+  height: 370px;
+  padding: 0 40px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.patients img {
+  margin-top: 50px;
+}
+.domain-switcher {
+  padding: 8px 25px 8px 6px;
+  border-radius: 9px;
+  font-size: 14px;
+}
+.select-opt :hover {
+  opacity: 0.5;
+}
+h1 {
+  font-size: 25px;
+  color: white;
+}
+h4 {
+  color: white;
+  opacity: 0.7;
+}
+
+.services-item-screen img {
+  width: 319px;
+  padding-left: 125px;
+}
+
+/*---------------Service-------------*/
+/*--------------brand----------------*/
+
+.brand-section-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.list-band {
+  float: left;
+  font-size: 20px;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding:0;
+}
+.list-band a {
+fill:rgb(179, 175, 175);
+padding:10px;
+}
+.list-band a :hover {
+  fill:#00CCB1
+}
+.brand-section-inner {
+  margin:20px 300px 20px 300px;
+}
+.slogan-doctors {
+  float: left;
+  width: 33%;
+  font-size: 21px;
+  margin: 1.25em 32px 1.35em;
+  padding-right: 1em;
+  color:#00CCB1;
+}
+/*--------------brand----------------*/
+/*--------------Cards----------------*/
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color:#E1F9F7;
+  width: 100%;
+  padding:40px;
+  overflow: hidden;
+  height: 500px;
+  margin: 40px 0 80px 0;
+}
+.logo-stats{
+  padding-top: 60px;
+}
+.slogan-stats {
+    font-size: 25px;
+    color: #00B39B;
+}
+.cards{
+  display: flex;
+  width:480px;
+  flex-wrap: wrap;
+}
+.left-col {
+  padding-top: 20px;
+}
+.left-col p {
+  color:#7A7B7B;
+}
+.cards {
+  margin-left: -320px;
+}
+.individuel-card {
+  background-color:white;
+  width:200px;
+  height: 200px;
+  padding: 15px 15px 20px 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.title-leader {
+  color:#00B3B5;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}
+.leader {
+  font-size: 13px;
+  text-align: center;
+  color:#7A7B7B;
+}
+.img-leader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.cards-col {
+  padding-top:15px;
+  padding-right: 20px;
+}
+/*--------------Cards----------------*/
+/*--------------Offices----------------*/
+.offices {
+  margin: 0 300px 0 300px;
+}
+.head-offices {
+  text-align: center;
+  margin: 0 250px 60px 250px;
+}
+/*--------------Offices----------------*/
+/*--------------Slider----------------*/
+.country-slider {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 280px 80px 280px;
+
+}
+.country-desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.country-desc img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: -1px;
+}
+.desc {
+  display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.country-desc:hover {
+  box-shadow: rgba(122, 123, 123, 0.473)  0  0 20px 0;
+}
+.title{
+  font-size: 20px;
+  color: #7A7B7B;
+}
+.btn-opennings {
+  background-color: rgba(22, 98, 198, 0.664);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.btn-opennings:hover {
+  background-color: rgba(111, 176, 250, 0.74);
+  
+}
+/*--------------Slider----------------*/
+/*--------------footer----------------*/
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 0 300px;
+  color: #B8B8B8;
+  border-top: rgba(221, 217, 217, 0.815) solid 0.5px;
+}
+.footer-uses {
+  margin-top: 20px;
+}
+footer a {
+  text-decoration: none;
+
+}
+footer a:hover{
+  text-decoration: underline;
+}
+/*--------------footer----------------*/
+
+
